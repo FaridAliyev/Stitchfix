@@ -20,7 +20,7 @@ function Header() {
     }
 
     return (
-        <div id="header">
+        <header id="header">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-10">
@@ -96,7 +96,7 @@ function Header() {
                     </div>
                 </div>
             </div>
-        </div>
+        </header>
     )
 }
 

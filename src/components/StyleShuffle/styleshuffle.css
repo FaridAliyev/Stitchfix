@@ -1,0 +1,144 @@
+@media (max-width: 991px) {
+  #styleShuffle .right {
+    margin-top: 40px;
+  }
+}
+
+#styleShuffle {
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 100px;
+}
+
+#styleShuffle .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#styleShuffle .right .styleShuffle {
+  width: 19.625rem;
+  position: relative;
+}
+
+#styleShuffle .right .styleShuffle .card {
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  border-radius: 0.125rem;
+  -webkit-box-shadow: 0 0 0.25rem rgba(37, 40, 45, 0.1), 0 0 0.5rem rgba(37, 40, 45, 0.1);
+          box-shadow: 0 0 0.25rem rgba(37, 40, 45, 0.1), 0 0 0.5rem rgba(37, 40, 45, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+
+#styleShuffle .right .styleShuffle .card .name {
+  font-size: 12px;
+  color: #515762;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#styleShuffle .right .styleShuffle .card .header {
+  font-size: 17px;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+#styleShuffle .right .styleShuffle .card .images img {
+  width: 230px;
+  height: 230px;
+}
+
+#styleShuffle .right .styleShuffle .card .images img:not(:first-child) {
+  display: none;
+}
+
+#styleShuffle .right .styleShuffle .card .buttonHolder {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#styleShuffle .right .styleShuffle .card .buttonHolder button {
+  display: inline-block !important;
+  width: 56px;
+  height: 56px;
+  background-color: transparent;
+  border: 2px solid #dd2e3e;
+  border-radius: 50%;
+}
+
+#styleShuffle .right .styleShuffle .card .buttonHolder button .icon {
+  color: #dd2e3e;
+  font-size: 25px;
+}
+
+#styleShuffle .right .styleShuffle .card .buttonHolder button:hover {
+  background-color: #fdf1f2;
+}
+
+#styleShuffle .right .styleShuffle .card .buttonHolder button:first-child {
+  margin-right: 15px;
+}
+
+#styleShuffle .right .styleShuffle .card .buttonHolder button:last-child {
+  margin-left: 15px;
+}
+
+#styleShuffle .right .styleShuffle::after, #styleShuffle .right .styleShuffle::before {
+  background: white;
+  border-radius: 0.125rem;
+  -webkit-box-shadow: 0 0 0.25rem rgba(37, 40, 45, 0.2), 0 0 0.5rem rgba(37, 40, 45, 0.2);
+          box-shadow: 0 0 0.25rem rgba(37, 40, 45, 0.2), 0 0 0.5rem rgba(37, 40, 45, 0.2);
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+#styleShuffle .right .styleShuffle::after {
+  left: 7px;
+  top: -5px;
+}
+
+#styleShuffle .right .styleShuffle::before {
+  left: 14px;
+  top: -10px;
+}
+
+#styleShuffle .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=styleshuffle.css.map */
