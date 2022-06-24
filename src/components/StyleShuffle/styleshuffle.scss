@@ -5,7 +5,7 @@
 #styleShuffle {
   font-family: $josefin;
   padding-top: 100px;
-  
+
   .right {
     display: flex;
     justify-content: center;
@@ -13,6 +13,7 @@
       width: 19.625rem;
       position: relative;
       .card {
+        overflow: hidden;
         padding: 20px;
         align-items: center;
         background-color: #fff;
@@ -32,25 +33,74 @@
           color: #515762;
           margin-top: 1rem;
           margin-bottom: 1rem;
+          z-index: 11111;
         }
 
         .header {
           font-size: 17px;
           margin-bottom: 1rem;
           font-weight: 700;
+          z-index: 11111;
+        }
+        .endOfStyleShuffle {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          p {
+            text-align: center;
+            color: #515762;
+          }
+          img {
+            width: 180px;
+            height: 180px;
+            display: none;
+            transition: 1s ease;
+          }
+          a {
+            background-color: #81e6d3;
+            color: #25282d;
+            font-weight: bold;
+            font-size: 15px;
+            border: 2px solid transparent;
+            display: inline-block;
+            min-width: 12rem;
+            padding: 0.6rem 1.5rem;
+            text-align: center;
+        }
         }
 
         .images {
           img {
             width: 230px;
             height: 230px;
-            &:not(:first-child) {
-              display: none;
-            }
+            display: none;
+            transition: 1s ease;
+          }
+          .activeStyle {
+            display: inherit;
+          }
+
+          .dislike {
+            transform: rotate(-30deg);
+            margin-right: 1000px;
+            transition: 1s ease;
+          }
+          .like {
+            transform: rotate(30deg);
+            margin-left: 1000px;
+            transition: 1s ease;
+          }
+        }
+
+        .image {
+          img {
+            width: 120px;
+            height: 120px;
           }
         }
 
         .buttonHolder {
+          z-index: 1111111;
           margin-top: 10px;
           display: flex;
           justify-content: space-around;
